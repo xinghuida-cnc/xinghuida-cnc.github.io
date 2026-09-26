@@ -1,1 +1,12 @@
+baseURL = "https://xinghuida-cnc.netlify.app/"
+languageCode = "en-us"
+title = "Xinghuida CNC | Precision 5-Axis Machining"
+theme = "ananke"
 
+[module]
+[[module.imports]]
+path = "github.com/theNewDynamic/gohugo-theme-ananke"
+
+[params]
+  description = "Professional 5-axis CNC precision machining service for aerospace, medical and automation custom parts."
+  site_logo = "/images/logo.png"
